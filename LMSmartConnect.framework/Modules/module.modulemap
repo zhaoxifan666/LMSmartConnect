@@ -1,0 +1,11 @@
+framework module LMSmartConnect {
+  umbrella header "LMSmartConnect.h"
+  export *
+
+  module * { export * }
+}
+
+module LMSmartConnect.Swift {
+  header "LMSmartConnect-Swift.h"
+  requires objc
+}
